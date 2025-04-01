@@ -2,6 +2,7 @@
 {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: Helvetica, sans-serif
 }
 
@@ -10,19 +11,35 @@ h1
     color: red;
     background-color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
 }
 
-.mainlist
+.firstbox span
 {
-    margin-top: 40px;
+    font-style: italic;
+    color: red;
+}
+
+.firstbox
+{   
     text-align: center;
+}
+
+.secondbox
+{
+    text-align: center;
+}
+
+#checkrecipes
+{
+    padding: 20px;
+    font-size: 35px;
 }
 
 .mainlist li
 {
     font-size: 30px;
-    margin-bottom: 20px;
+    padding-bottom: 10px;
     color: black;
     font-style: none;
 }
